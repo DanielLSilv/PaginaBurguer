@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+}
+@font-face{
+    font-family: font_hamburguer;
+    src:url("pencil.ttf");
+}
+@font-face{
+    font-family: font_2;
+    src: url(pencil2.otf);
+}
+
+header{
+    height: 854px ;
+    background-image: url(hamburgue.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;/*ajustar o tamanho da imagem*/
+    background-position: center;
+}
+
+h1{
+    color: white;
+}
+
+nav ul{
+    width: 100%;
+    display: flex;
+    height: 120px;
+    color: azure;  
+    justify-content: space-around;
+    align-items: center; 
+    font-family: font_hamburguer ;
+    font-size: 25px;
+    list-style-type: none;
+
+}
+
+li{
+    font-family:font_hamburguer;
+    font-size: 30px;
+    list-style-type: none;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-family: font_2;
+}
